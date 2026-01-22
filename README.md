@@ -13,23 +13,22 @@
 
 A machine learning-based predictive system for classifying and forecasting traffic accident severity levels using ensemble learning algorithms like  **Random Forest** (94.55% accuracy) and **XGBoost** (84.90% accuracy). It analyzes environmental, vehicular, and demographic factors to enable data-driven emergency response planning.
 
----
+
 
 ## Table of Contents
 
 
 - [Key Features](#key-features)
-- [Tech Stack](#tech-stack)
 - [Datasets](#datasets)
 - [Project Structure](#project-structure)
 - [Installation & Setup](#installation--setup)
 - [How to Run](#how-to-run)
 - [Results](#results)
-- [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
+- [Author](#author)
 - [License](#license)
 
----
+
 
 
 
@@ -42,7 +41,7 @@ A machine learning-based predictive system for classifying and forecasting traff
 - Data visualization and analysis
 - Production-ready Jupyter notebooks
 
----
+
 
 
 
@@ -63,7 +62,7 @@ A machine learning-based predictive system for classifying and forecasting traff
 - **Features**: Driver profile, vehicle details, environmental conditions, accident data
 - **Target**: Accident_severity (Slight, Serious, Fatal)
 
----
+
 
 ## Project Structure
 
@@ -84,7 +83,7 @@ Accident_Detection/
 └── README.md
 ```
 
----
+
 
 ## Installation & Setup
 
@@ -92,7 +91,7 @@ Accident_Detection/
 2. **Create Environment**: `python -m venv venv && source venv/bin/activate`
 3. **Install Dependencies**: `pip install -r requirements.txt`
 
----
+
 
 ## How to Run
 
@@ -101,7 +100,8 @@ cd accident_detection_RandomForest && jupyter notebook RandomForest.ipynb
 cd accident_detection_XGBoost && jupyter notebook XGBoost_2.ipynb
 ```
 
----
+
+
 
 ## Results
 
@@ -120,7 +120,7 @@ cd accident_detection_XGBoost && jupyter notebook XGBoost_2.ipynb
 - Higher severity during night hours and rush hours
 - Driver age and experience influence outcomes
 
----
+
 
 
 
@@ -134,13 +134,21 @@ Contributions are welcome!
 4. Push: `git push origin feature/YourFeature`
 5. Submit pull request
 
----
+
+
+## Author
+
+**SRIMATHI RENGHARAJAN**
+- GitHub: https://github.com/SRIMATHI-RENGHARAJAN
+- Linkedin: https://www.linkedin.com/in/srimathi-rengharajan/
+
+
 
 ## License
 
 Use for educational and commercial purposes with proper attribution.
 
----
+
 
 **Last Updated**: January 2026  
 **Status**: Active Development  
